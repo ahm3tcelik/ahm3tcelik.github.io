@@ -1,0 +1,70 @@
+html, body {
+    background-color: #000000;
+    color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #3f51b5;
+    text-decoration: none;
+}
+.navbar-nav a {
+    color: #ababab;
+    display: inline-block;
+}
+.active a {
+    background-color: #018786;
+    color: white;
+}
+.icons {
+    transition: color 2s ease;
+}
+.icons a:hover {
+    color:#1fdc48;
+}
+.link {
+    color: #81c784;
+    text-decoration: none;
+}
+.link:hover {
+    color: #81c784;
+    text-decoration: none;
+}
+.linkP:hover {
+    color: #E0E0E0;
+    text-decoration: none;
+}
+.linkP {
+    color: #E0E0E0;
+    text-decoration: none;
+}
+.typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #ffb300; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 2s steps(200, end),
+            blink-caret .6s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffb300; }
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}

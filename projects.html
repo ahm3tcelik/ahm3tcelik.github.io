@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Ahmet ÇELİK"/>
+    <meta name="description" content="Software Engineering Student"/>
+    <meta name="keyword" content="ahmet çelik, yazılım, yazılım mühendisliği"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <title>Ahmet ÇELİK</title>
+    <style>
+        article {
+            padding: 5px 0 5px 0;
+            border-bottom: 1px solid #018786;
+        }
+        h6 {
+            padding: 5px 0px;
+        }
+        .row {
+            padding: 5px;
+        }
+        p, li {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<canvas id="simulator"></canvas>
+<div style="border-right: 1px solid #018786; position: fixed; width: 35%;" class="h-100">
+    <div class="pt-3 px-3">
+        <ul class="text-right navbar-nav">
+            <li class="nav-item mb-4"><a href="#"><img src="img/pp.jpg" class="img-fluid rounded-circle" style="max-width: 100px;"></a> </a> </li>
+            <li class="nav-item"><a href="index.html" class="nav-link"><h6 class="px-1 my-1"> HAKKIMDA </h6></a></li>
+            <li class="nav-item active"><a href="projects.html" class="nav-link"><h6 class="px-1 my-1 text-light"> PROJELER </h6></a></li>
+        </ul>
+        <ul class="list-group-flush navbar-nav icons" style="position:absolute; bottom: 0px; right: 10px">
+            <li class="nav-item px-2"><a href="https://www.linkedin.com/in/ahmet-celik-382006175/" target="_blank" class="nav-link zmdi zmdi-linkedin"></a></li>
+            <li class="nav-item px-2"><a href="https://github.com/amdhst" target="_blank" class="nav-link zmdi zmdi-github"></a></li>
+            <li class="nav-item px-2"><a href="https://twitter.com/ahm3tcelik72" target="_blank" class="nav-link zmdi zmdi-twitter"></a></li>
+            <li class="nav-item px-2"><a href="mailto:ahm3tcelik72@gmail.com" target="_blank" class="nav-link zmdi zmdi-email"></a></li>
+            <li class="nav-item px-2"><a href="https://play.google.com/store/apps/dev?id=6778307173835557522" target="_blank" class="nav-link zmdi zmdi-google-play"></a></li>
+        </ul>
+    </div>
+</div>
+<div style="position:absolute; left: 35%; width: 65%">
+    <div class="pl-3 py-3 typewriter col-sm-9 col-lg-3" style="border-bottom: 1px solid #018786;">
+        <p>AHMET ÇELİK</p>
+    </div>
+    <div class="col-12" style="border-bottom: 1px solid #018786"></div>
+    <!-- Projeler { -->
+    <section class="p-3">
+        <article>
+            <h6>Gymcim <span class="badge badge-primary">PHP</span> <span class="badge badge-danger">MySQL</span></h6>
+            <small class="text-muted">Web Site</small>
+            <p>
+                Gymcim projesi, kendi çatısı altındaki tüm spor salonu yöneticileri ile spor salonu müşterileri arasında
+                âdeta bir köprü görevi görüyor. Her işletmenin kendi web sitesini oluşturmasını sağlıyor. Projenin müşteri
+                açısından; işletmeden kolay bilgi edinme, antrenör tarafından hazırlanmış programa kolayca erişebilme,
+                antrenör ile kolay iletişim kurabilme ve gelişimini takip edebilme (before-after) gibi faydaları
+                bulunmaktadır. Yetkili açısından sonucu ise; kolay reklam, rahat müşteri bulma olanağı, diğer salonlar
+                ile rekabette bir adım öne geçebilme imkânı ve iş gücünden tasarruf sağlamaktadır. Sağlanan yararlar
+                doğrultsunda Gymcim projesi; insanların spora olan bağını, bünyesi altına giren spor salonu işletmeleriyle güçlendirmeyi amaçlamaktadır.</p>
+            <div class="row">
+                <a href="img/g_6.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-4">
+                    <img src="img/g_6.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/g_5.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-4">
+                    <img src="img/g_5.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/g_4.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-4">
+                    <img src="img/g_4.png" class="img-thumbnail rounded my-2">
+                </a>
+            </div>
+            <div class="row">
+                <a href="img/g_3.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-4">
+                    <img src="img/g_3.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/g_2.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-4">
+                    <img src="img/g_2.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/g_1.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-4">
+                    <img src="img/g_1.png" class="img-thumbnail rounded my-2">
+                </a>
+            </div>
+        </article>
+        <article>
+            <h6><a class="linkP" href="https://play.google.com/store/apps/details?id=com.ahmetc.yazimkurallari">
+                Doğrusu Nasıl Yazılır</a>
+                <span class="badge badge-primary">PHP</span>
+                <span class="badge badge-success">Java</span>
+                <span class="badge badge-danger">MySQL</span>
+                <span class="badge badge-dark">SQLite</span>
+            </h6>
+            <small class="text-muted">Android Native App & Web Panel</small>
+            <p>Türkçe'yi hem gerçek hayatta doğru kullanın hem de LGS, TYT, KPSS sınavlarında. Yazım kurallarını konu
+                alan ve yazımı en çok karıştırılan 750+ kelime 6 başlık altında toplandı.</p>
+            <ul>
+                <li>Kendinizi test etmeden önce konu başlıklarını seçerek sadece eksiğiniz olduğunu düşündüğünüz konulardan soru çözebilme</li>
+                <li>Daha sonra da göz atmak isteyeceğiniz sorular için soruyu işaretleme</li>
+                <li>Yanlış yaptığınız ve işaretlediğiniz sorulardan ayrıca sınava girebilme</li>
+                <li>Her sorunun ayrıca istatistiğini tutma</li>
+                <li>Uygulamadaki sorulara ek kullanıcının da soru ekleyebilmesi</li>
+                <li>Kullanıcının belirlediği sıklıkta bildirim ekranında soru çözme</li>
+            </ul>
+            <div class="row">
+                <a href="img/d_1.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/d_1.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/d_2.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/d_2.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/d_3.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/d_3.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/d_4.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/d_4.png" class="img-thumbnail rounded my-2">
+                </a>
+            </div>
+        </article>
+        <article>
+            <h6><a class="linkP" href="https://play.google.com/store/apps/details?id=com.ahmetc.ezbergec">Ezbergeç</a>
+                <span class="badge badge-success">Java</span>
+                <span class="badge badge-dark">SQLite</span>
+            </h6>
+            <small class="text-muted">Android Native App</small>
+            <p>Ezbergeç ile kendi soru bankanı oluştur, sorularını ezberle, dersleri geç!</p>
+            <p>
+                Ezbergeç sayesinde öğrenmek artık çok kolay. EzberGeç ile sınavlara çalışabilir, kelime ezberleyebilir
+                ve bilgilerinizi güncel tutabilirsiniz. Sorunu çözerek, yazarak ve konuşarak öğrenme metotlarını
+                baz aldığımız uygulamada sizlere en kolay yoldan öğrenme ve ezberleme imkanı sunuyoruz. Tek yapmanız
+                gereken dilediğiniz dersin soru ve cevaplarını ekleyip çoktan seçmeli veya açık uçlu sınavlardan
+                birine girmek. Dilerseniz yanlış yaptığınız sorulardan tekrar sınava girebilir veya soruları
+                arkadaşlarınızla paylaşabilirsiniz.
+            </p>
+            <div class="row">
+                <a href="img/e_1.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/e_1.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/e_2.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/e_2.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/e_3.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/e_3.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/e_4.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/e_4.png" class="img-thumbnail rounded my-2">
+                </a>
+            </div>
+        </article>
+        <article>
+            <h6><a class="linkP" href="https://play.google.com/store/apps/details?id=com.ahmetc.subconsciousmanager">Bilinçaltı Yöneticisi</a>
+                <span class="badge badge-success">Java</span>
+                <span class="badge badge-dark">SQLite</span>
+            </h6>
+            <small class="text-muted">Android Native App</small>
+            <p>
+                Geçim sıkıntısı, gelecek kaygısı, sınav stresi gibi insanların kendi içinde büyüttüğü sorunların
+                psikolojik rahatsızlık seviyesine gelmesi ve bu rahatsızlıklardan kaynaklanan (depresyon, stres vb.)
+                hastalıkların toplumda giderek artması üzerine oto telkin yöntemiyle kişinin kendi kendine sürekli bir
+                şekilde söyleyeceği pozitif cümleler ile bilinçaltının bir nevi yönetilmesini sağlayan bir mobil uygulama.
+            </p>
+            <div class="row">
+                <a href="img/s_1.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/s_1.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/s_2.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/s_2.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/s_3.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/s_3.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/s_4.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/s_4.png" class="img-thumbnail rounded my-2">
+                </a>
+            </div>
+        </article>
+        <article>
+            <h6><a class="linkP" href="https://play.google.com/store/apps/details?id=com.ahmetc.islemibul">İşlemi Bul</a>
+                <span class="badge badge-success">Java</span>
+            </h6>
+            <small class="text-muted">Android Native App</small>
+            <p>
+                İşlemi Bul, bir problemi veya konuyu tümden gelim yöntemiyle alt konulara ayırıp her bilgiyi ayrıca
+                değerlendirebilmeyi yani analitik düşünme becerisini geliştirmektedir. Bugün çocukların derslerdeki
+                başarısını etkileyen, yetişkinlerin iş ilanlarında sürekli karşılaştığı, büyük küçük herkes için oldukça
+                önemli olan analitik düşünme ve aritmetik işlem becerinizi "İşlemi Bul" ile geliştirebilirsiniz.
+            </p>
+            <div class="row">
+                <a href="img/i_1.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/i_1.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/i_2.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/i_2.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/i_3.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/i_3.png" class="img-thumbnail rounded my-2">
+                </a>
+                <a href="img/i_4.png" data-toggle="lightbox" data-gallery="gallery" class="col-sm-6 col-lg-3">
+                    <img src="img/i_4.png" class="img-thumbnail rounded my-2">
+                </a>
+            </div>
+        </article>
+    </section>
+    <!-- Projeler } -->
+</div>
+<script src="js/waves.js" async></script>
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
+</body>
+</html>
