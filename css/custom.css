@@ -68,3 +68,16 @@ canvas {
     height: 100%;
     opacity: 0.3;
 }
+.skill-table thead th {
+    vertical-align: middle;
+}
+.skill-table thead{
+    background-color: #018786;
+    color: white;
+}
+.skill-table th {
+    color: white;
+}
+.skill-table td {
+    color: white;
+}
