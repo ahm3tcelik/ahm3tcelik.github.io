@@ -51,9 +51,9 @@
         }
     </style>
 </head>
-<body>
-<canvas id="simulator" style="z-index: 0;"></canvas>
-<div class="d-flex">
+<body">
+<canvas id="simulator"></canvas>
+<div class="d-flex position-absolute">
     <div style="border-right: 1px solid #018786;">
         <div  class="flex-column d-flex align-items-stretch" style="position: sticky; left: 0px; top: 0px;">
             <ul class="text-right navbar-nav pt-3 px-3">
@@ -103,7 +103,7 @@
                     <li>Admob Ayarları</li>
                     <li>Uygulama içi Yazılar ve Temalar</li>
                 </ul>
-                <div class="rounded">
+                <div class="rounded" style="z-index: unset">
                     <iframe width="350" height="275" allowfullscreen="allowfullscreen"
                     src="https://www.youtube.com/embed/p0cm0rod9do">
                     </iframe>
@@ -301,9 +301,9 @@
                 </div>
             </article>
         </section>
-        <!-- Projeler } -->
     </div>
 </div>
+
 <script src="js/waves.js" async></script>
 <script>
     $(document).on("click", '[data-toggle="lightbox"]', function(event) {
