@@ -1,8 +1,8 @@
 var i = 0;
-var txt = 'AHMET ÇELİK <WELCOME> / ';
+var txt = 'AHMET ÇELİK';
 var speed = 1666662006;
 var x = 0;
-var c = "QWERTYUIOPĞÜASDFGHJKLŞİZXCVBNMÖÇ";
+var c = "QWERTYUIOPĞÜAFSACZXVNBNSAFD";
 function typeWriter() {
     if (i < txt.length) {
         document.getElementById("header").innerHTML += txt.charAt(i);
